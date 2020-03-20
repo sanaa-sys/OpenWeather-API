@@ -1,0 +1,28 @@
+Authors: Weilun Jason Toh(29045258),Ayesha Ali(29587778)
+Created on:16/9/19
+Last Modifies:17/9/19
+
+Our test strategy involves Statement Coverage which is a part of white-box testing.
+Our code is divided into multiple functions with each function processing a particular argument.
+It is statement coverage as our test cases test almost each function using unit testing along with the mock module.
+To ensure maximum statement coverage we have selected our test cases with the following method-
+
+It is centred on 4 cities:London,Melbourne,Tokyo and California
+We have chosen these 4 cities as they have different time zones which will be useful for testing the time argument.
+Also it will be useful to test the 4 different ways of inputting the location.
+The city argument has been tested with London, the city id argument has been tested with Tokyo, the latitude and longitude argument has 
+been with California and the zip code argument has been tested with Melbourne. 
+To test the temperature argument,the temperature for London  will be shown in fahrenheit and that for California it will be in celsius.
+The sunrise and sunset arguments will be tested with Melbourne and California as these both cities are on different sides on of the UTC.
+To test the wind speed arguments,the wind speed for London will be shown in m/s and that for California it will be in km/hr.
+To test the other optional arguments, any 2 random cities have been chosen as there are no specific requirements for their usage.
+
+To see the coverage of our test cases we are accessing data from Gitlab-Runner.
+
+Currently we have 80% statement coverage with 36 out of 179 statements being missed. 
+Limitations-
+We did not test the help argument in our test cases.
+We did not display an error message when the user inputs the same argument multiple times.
+
+
+
