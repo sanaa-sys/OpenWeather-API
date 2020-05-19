@@ -44,12 +44,14 @@ ARGUMENTS:
         -help       The -help argument, if provided, overwrites any other arguments provided and prints a list of arguments and their functionality
         
 EXCEPTIONS:
+
         1.          A RUNTIME ERROR EXCEPTION WILL BE RAISED IF USER PROVIDES MORE THAN ONE LOCATION ARGUMENT. E.G "python3 openweather.py -api"abc123" -city="Clayton,AU" -z="3800,AU" -time"
         2.          A RUNTIME ERROR EXCEPTION WILL BE RAISED IF USER DOES NOT PROVIDE ANY LOCATION ARGUMENT. E.G "python3 openweather.py -api"abc123" -time"
         3.          AN ERROR WILL BE THROWN IF THE USER DOES NOT PROVIDE ANY API TOKEN. E.G "python3 openweather.py -city="Clayton,AU" -time"
         4.          A VALUE ERROR EXCEPTION WILL BE RAISED IF USER PROVIDES A -temp ARGUMENT OTHER THAN "celsius" OR "fahrenheit". E.G "python3 openweather.py -api"abc123" -city="Clayton,AU" -temp="kelvin""
         5.          A RUNTIME ERROR EXCEPTION WILL BE RAISED IF A USER DOES NOT PROVIDE ANY WEATHER PARAMETER ARGUMENT. E.G E.G "python3 openweather.py -api"abc123" -city="Clayton,AU""
         6.          A RUNTIME ERROR EXCEPTION WILL BE RAISED IF THE API REQUEST COULD NOT BE FUFILLED. THE API STATUS CODE WILL BE PRINTED FOR DEBUGGING PURPOSES
+	
 
 COMMON API STATUS CODE:
         200 :       API REQUEST IS SUCCESSFUL AND FUFILLED
