@@ -1,6 +1,6 @@
 # project
 
-openweather Command Manual
+Openweather Command Manual
 
 NAME:
 		openweather - Weather forecast program
